@@ -1,5 +1,5 @@
-from visualization.exploration import exploration
-from models.pre_processing import pre_processing
+from src.visualization.exploration import exploration, get_dataframe
+from src.models.pre_processing import pre_processing
 
 ############################################################################################################
 

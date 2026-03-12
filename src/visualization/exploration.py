@@ -1,6 +1,6 @@
 import pandas as pd
 
-from config import HOME_PATH
+from src.config import HOME_PATH
 
 def exploration():
 
@@ -31,7 +31,7 @@ def exploration():
     
 def get_dataframe():
     
-    df = pd.read_csv(HOME_PATH + "/data/weatherAUS.csv")
+    df = pd.read_csv(HOME_PATH + "/data/raw/weatherAUS.csv")
 
     df["Date"] = pd.to_datetime(df["Date"])
     df["year"] = df["Date"].dt.year
