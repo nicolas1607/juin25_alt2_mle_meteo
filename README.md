@@ -1,5 +1,24 @@
-Project Name
-==============================
+# Prévision météo en Australie
+
+### Pré-requis
+Python 3.12.3
+
+## Installer les librairies
+```
+> cd juin25_alt2_mle_meteo/
+> python3 -m venv env
+> source env/bin/activate
+> pip install -r requirements.txt
+> cd src/
+> python3 __init__.py
+```
+
+## Exécuter le projet
+```
+Vous devez modifier le HOME_PATH dans src/__init__.py
+> cd juin25_alt2_mle_meteo/src/
+> python3 __init__.py
+```
 
 This repo is a Starting Pack for DS projects. You can rearrange the structure to make it fits your project.
 
