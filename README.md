@@ -3,19 +3,19 @@
 ### Pré-requis
 Python 3.12.3
 
-## Installer les librairies
+## Installer le projet et les librairies
 ```
+> git clone https://github.com/nicolas1607/juin25_alt2_mle_meteo
 > cd juin25_alt2_mle_meteo/
 > python3 -m venv env
 > source env/bin/activate
 > pip install -r requirements.txt
-> cd src/
-> python3 __init__.py
 ```
 
 ## Exécuter le projet
 ```
-Vous devez modifier le HOME_PATH dans src/__init__.py
+- Ajouter le dataset dans juin25_alt2_mle_meteo/data/weatherAUS.csv
+- Modifier le HOME_PATH dans juin25_alt2_mle_meteo/src/config.py
 > cd juin25_alt2_mle_meteo/src/
 > python3 __init__.py
 ```
