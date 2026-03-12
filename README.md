@@ -10,6 +10,8 @@ Python 3.12.3
 > python3 -m venv env
 > source env/bin/activate
 > pip install -r requirements.txt
+> git checkout -b ma_branche (ex : nicolas)
+> git pull origin ma_branche (ex : nicolas)
 ```
 
 ## Exécuter le projet
