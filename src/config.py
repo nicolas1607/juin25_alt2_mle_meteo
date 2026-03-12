@@ -1,0 +1,1 @@
+HOME_PATH = "/home/nicolas/Bureau/juin25_alt2_mle_meteo"
