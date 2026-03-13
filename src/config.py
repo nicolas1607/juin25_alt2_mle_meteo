@@ -1,1 +1,1 @@
-HOME_PATH = "."
+HOME_PATH = "../.."
